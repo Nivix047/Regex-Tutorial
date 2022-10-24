@@ -1,10 +1,10 @@
-# Title (replace with your title)
+# Regex Tutorial
 
-Introductory paragraph (replace this with your text)
+A beginner friendly introduction to Regex!
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+Regex is very useful, however, the syntax can be difficult to remember. Please see below the table of contents to some basic and useful regex.
 
 ## Table of Contents
 
@@ -69,6 +69,8 @@ console.log( str.match(regexp) ); // expected output: 'HTML', 'CSS', 'JavaScript
 ### Character Classes
 
 Character classes distinguish kinds of characters such as, for example, distinguishing between letters and digits.
+
+Example:
 
 const chessStory = 'He played the King in a8 and she moved her Queen in c2.'; <br/>
 const regexpCoordinates = /\w\d/g;
